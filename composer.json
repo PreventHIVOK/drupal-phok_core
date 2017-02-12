@@ -1,0 +1,19 @@
+{
+  "name": "drupal/phok_core",
+  "type": "drupal-custom-module",
+  "description": "The core module of PHOK Platform modules.",
+  "keywords": [
+    "Drupal 8",
+    "PHOK Platform"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/PreventHIVOK/drupal-phok_core",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/PreventHIVOK/drupal-phok_core/issues",
+    "source": "https://github.com/PreventHIVOK/drupal-phok_core"
+  },
+  "require": {
+    "drupal/core": "~8.0"
+  }
+}

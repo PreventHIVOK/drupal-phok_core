@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - metatag
+      - phok_core
+id: node.metadata
+field_name: metadata
+entity_type: node
+type: metatag
+settings: {  }
+module: metatag
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains phok_core.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function phok_core_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the phok_core module.
+    case 'help.page.phok_core':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The core module of PHOK Platform modules.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function phok_core_theme() {
+  return [
+    'phok_core' => [
+      'template' => 'phok_core',
+      'render element' => 'children',
+    ],
+  ];
+}
