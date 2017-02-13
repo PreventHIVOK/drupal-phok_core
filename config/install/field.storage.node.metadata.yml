@@ -3,9 +3,9 @@ status: true
 dependencies:
   module:
     - node
+    - metatag
   enforced:
     module:
-      - metatag
       - phok_core
 id: node.metadata
 field_name: metadata

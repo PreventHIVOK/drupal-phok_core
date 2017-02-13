@@ -3,9 +3,9 @@ status: true
 dependencies:
   module:
     - node
+    - comment
   enforced:
     module:
-      - comment
       - phok_core
 id: node.comments
 field_name: comments
