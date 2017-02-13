@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+  enforced:
+    module:
+      - phok_core
+name: Content tags
+vid: tags
+description: 'Keyword descriptions to identify content within the site as relating to a specific category or topic.'
+hierarchy: 0
+weight: 0
