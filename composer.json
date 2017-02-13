@@ -1,6 +1,6 @@
 {
   "name": "drupal/phok_core",
-  "type": "drupal-custom-module",
+  "type": "drupal-module",
   "description": "The core module of PHOK Platform modules.",
   "version": "1.x-dev",
   "keywords": [
